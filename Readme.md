@@ -16,9 +16,12 @@ The goal is to make your app testable without real Firebase credentials or netwo
 
 ## Quick Setup (One-Time)
 
+0. Open powershell(x86), cd to main folder
+
 1. Create and activate a virtual environment:
    - python -m venv .venv
-   - .\\.venv\\Scripts\\Activate.ps1
+   - Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   - .venv\Scripts\Activate.ps1
 
 2. Install dependencies:
    - pip install -r requirements.txt
