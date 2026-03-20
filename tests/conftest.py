@@ -1,3 +1,7 @@
+# NOTE:
+# These fixtures (client, mock_firestore, mock_firebase_auth) are designed for integration tests (e.g., test_api_profile.py).
+# Use them to provide reusable, isolated mocks for Flask app, Firestore, and Firebase auth.
+# For pure unit tests of utility/helper functions, direct patching in the test file is preferred.
 import importlib
 import sys
 import types

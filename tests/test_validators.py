@@ -1,3 +1,7 @@
+# NOTE:
+# For pure unit tests of utility functions (like those in this file), direct patching/mocking is appropriate.
+# For integration tests (e.g., Flask routes, API endpoints), use the fixtures from conftest.py (client, mock_firestore, mock_firebase_auth)
+# for best practice and maintainability. See lab Task 2 for details.
 import pytest
 from utils.validation import validate_profile_data, normalize_profile_data
 
